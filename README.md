@@ -9,28 +9,9 @@
 - **SQLite** (встроен в .NET)
 - **Git** (для клонирования репозитория)
 
-### Установка .NET на Linux
-```bash
-# Ubuntu/Debian
-sudo apt update
-sudo apt install -y dotnet-sdk-8.0
 
-# Или через snap
-sudo snap install dotnet-sdk --classic
 
-# Проверка установки
-dotnet --version
-```
-
-### Установка и запуск
-
-#### 1. Клонирование репозитория
-```bash
-git clone <repository-url>
-cd test-backend
-```
-
-#### 2. Восстановление зависимостей
+#### 1. Восстановление зависимостей
 ```bash
 # Восстановление всех пакетов NuGet
 dotnet restore
@@ -39,7 +20,7 @@ dotnet restore
 dotnet restore UsersApp.Web/UsersApp.Web.csproj
 ```
 
-#### 3. Создание/обновление базы данных
+#### 2. Создание/обновление базы данных
 ```bash
 # Создание миграций (если нужно)
 dotnet ef migrations add InitialCreate --project UsersApp.Infrastructure --startup-project UsersApp.Web
@@ -48,7 +29,7 @@ dotnet ef migrations add InitialCreate --project UsersApp.Infrastructure --start
 dotnet ef database update --project UsersApp.Infrastructure --startup-project UsersApp.Web
 ```
 
-#### 4. Запуск приложения
+#### 3. Запуск приложения
 
 ##### Способ 1: Стандартный запуск
 ```bash
@@ -89,124 +70,7 @@ dotnet run --project UsersApp.Web --launch-profile https
 | **🔍 Поиск пользователей** | http://localhost:5008/Users?q=term | Поиск по имени или email |
 | **🔒 HTTPS (если настроен)** | https://localhost:7118 | Безопасное соединение |
 
-### 🔧 Настройка хоста и портов
 
-#### Через переменные окружения
-```bash
-# Установка URL через переменную окружения
-export ASPNETCORE_URLS="http://localhost:5009"
-dotnet run --project UsersApp.Web
-
-# Или в одной команде
-ASPNETCORE_URLS="http://0.0.0.0:5008" dotnet run --project UsersApp.Web
-```
-
-#### Через конфигурацию
-Создайте файл `appsettings.Production.json`:
-```json
-{
-  "Urls": "http://0.0.0.0:5008;https://0.0.0.0:7118"
-}
-```
-
-#### Через launchSettings.json
-Измените `Properties/launchSettings.json`:
-```json
-{
-  "profiles": {
-    "custom": {
-      "commandName": "Project",
-      "applicationUrl": "http://localhost:5009",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    }
-  }
-}
-```
-
-### 🐛 Решение проблем
-
-#### Порт уже используется
-```bash
-# Найти процесс, использующий порт
-lsof -i :5008
-
-# Остановить процесс
-kill <PID>
-
-# Или запустить на другом порту
-dotnet run --project UsersApp.Web --urls "http://localhost:5009"
-```
-
-#### Проблемы с базой данных
-```bash
-# Удалить базу данных и пересоздать
-rm UsersApp.Web/users.db*
-dotnet ef database update --project UsersApp.Infrastructure --startup-project UsersApp.Web
-```
-
-#### Проблемы с зависимостями
-```bash
-# Очистить кэш NuGet
-dotnet nuget locals all --clear
-
-# Пересобрать проект
-dotnet clean
-dotnet restore
-dotnet build
-```
-
-## 🔧 Конфигурация хоста в коде
-
-### Как определяется хост в ASP.NET Core:
-
-#### 1. **launchSettings.json** (разработка)
-```json
-{
-  "profiles": {
-    "http": {
-      "applicationUrl": "http://localhost:5008"
-    },
-    "https": {
-      "applicationUrl": "https://localhost:7118;http://localhost:5008"
-    }
-  }
-}
-```
-
-#### 2. **appsettings.json** (конфигурация)
-```json
-{
-  "AllowedHosts": "*",
-  "Urls": "http://0.0.0.0:5008"
-}
-```
-
-#### 3. **Переменные окружения** (продакшен)
-```bash
-export ASPNETCORE_URLS="http://0.0.0.0:5008"
-export ASPNETCORE_ENVIRONMENT="Production"
-```
-
-#### 4. **Program.cs** (программная настройка)
-```csharp
-// В Program.cs можно добавить:
-builder.WebHost.UseUrls("http://0.0.0.0:5008");
-
-// Или через конфигурацию:
-builder.Configuration.AddInMemoryCollection(new[]
-{
-    new KeyValuePair<string, string>("Urls", "http://0.0.0.0:5008")
-});
-```
-
-### Приоритет настроек (от высшего к низшему):
-1. **Переменные окружения** (`ASPNETCORE_URLS`)
-2. **Аргументы командной строки** (`--urls`)
-3. **launchSettings.json** (только в Development)
-4. **appsettings.json**
-5. **Значения по умолчанию** (http://localhost:5000)
 
 ### 🚀 Практические примеры запуска
 
@@ -229,29 +93,6 @@ dotnet run --project UsersApp.Web --urls "http://0.0.0.0:5008"
 
 # Доступно только локально
 dotnet run --project UsersApp.Web --urls "http://127.0.0.1:5008"
-```
-
-#### Запуск в продакшене:
-```bash
-# Через переменные окружения
-export ASPNETCORE_URLS="http://0.0.0.0:80"
-export ASPNETCORE_ENVIRONMENT="Production"
-dotnet run --project UsersApp.Web
-
-# Или в одной команде
-ASPNETCORE_URLS="http://0.0.0.0:80" ASPNETCORE_ENVIRONMENT="Production" dotnet run --project UsersApp.Web
-```
-
-#### Проверка текущих настроек:
-```bash
-# Проверить, какие порты слушает приложение
-netstat -tlnp | grep dotnet
-
-# Проверить конкретный порт
-lsof -i :5008
-
-# Проверить все порты .NET
-ss -tlnp | grep dotnet
 ```
 
 ## 🏗️ Архитектура
