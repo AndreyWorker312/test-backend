@@ -1,0 +1,11 @@
+C:\Users\Андрей\Documents\resume\UsersApp.Domain\bin\Debug\net9.0\UsersApp.Domain.deps.json
+C:\Users\Андрей\Documents\resume\UsersApp.Domain\bin\Debug\net9.0\UsersApp.Domain.dll
+C:\Users\Андрей\Documents\resume\UsersApp.Domain\bin\Debug\net9.0\UsersApp.Domain.pdb
+C:\Users\Андрей\Documents\resume\UsersApp.Domain\obj\Debug\net9.0\UsersApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Андрей\Documents\resume\UsersApp.Domain\obj\Debug\net9.0\UsersApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Андрей\Documents\resume\UsersApp.Domain\obj\Debug\net9.0\UsersApp.Domain.AssemblyInfo.cs
+C:\Users\Андрей\Documents\resume\UsersApp.Domain\obj\Debug\net9.0\UsersApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Андрей\Documents\resume\UsersApp.Domain\obj\Debug\net9.0\UsersApp.Domain.dll
+C:\Users\Андрей\Documents\resume\UsersApp.Domain\obj\Debug\net9.0\refint\UsersApp.Domain.dll
+C:\Users\Андрей\Documents\resume\UsersApp.Domain\obj\Debug\net9.0\UsersApp.Domain.pdb
+C:\Users\Андрей\Documents\resume\UsersApp.Domain\obj\Debug\net9.0\ref\UsersApp.Domain.dll

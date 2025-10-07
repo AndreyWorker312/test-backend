@@ -1,0 +1,15 @@
+C:\Users\Андрей\Documents\resume\UsersApp.Application\bin\Debug\net9.0\UsersApp.Application.deps.json
+C:\Users\Андрей\Documents\resume\UsersApp.Application\bin\Debug\net9.0\UsersApp.Application.dll
+C:\Users\Андрей\Documents\resume\UsersApp.Application\bin\Debug\net9.0\UsersApp.Application.pdb
+C:\Users\Андрей\Documents\resume\UsersApp.Application\bin\Debug\net9.0\UsersApp.Domain.dll
+C:\Users\Андрей\Documents\resume\UsersApp.Application\bin\Debug\net9.0\UsersApp.Domain.pdb
+C:\Users\Андрей\Documents\resume\UsersApp.Application\obj\Debug\net9.0\UsersApp.Application.csproj.AssemblyReference.cache
+C:\Users\Андрей\Documents\resume\UsersApp.Application\obj\Debug\net9.0\UsersApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Андрей\Documents\resume\UsersApp.Application\obj\Debug\net9.0\UsersApp.Application.AssemblyInfoInputs.cache
+C:\Users\Андрей\Documents\resume\UsersApp.Application\obj\Debug\net9.0\UsersApp.Application.AssemblyInfo.cs
+C:\Users\Андрей\Documents\resume\UsersApp.Application\obj\Debug\net9.0\UsersApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\Андрей\Documents\resume\UsersApp.Application\obj\Debug\net9.0\UsersApp.7A343615.Up2Date
+C:\Users\Андрей\Documents\resume\UsersApp.Application\obj\Debug\net9.0\UsersApp.Application.dll
+C:\Users\Андрей\Documents\resume\UsersApp.Application\obj\Debug\net9.0\refint\UsersApp.Application.dll
+C:\Users\Андрей\Documents\resume\UsersApp.Application\obj\Debug\net9.0\UsersApp.Application.pdb
+C:\Users\Андрей\Documents\resume\UsersApp.Application\obj\Debug\net9.0\ref\UsersApp.Application.dll

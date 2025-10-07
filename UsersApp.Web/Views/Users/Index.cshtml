@@ -1,0 +1,40 @@
+﻿@model List<UsersApp.Application.Users.Dtos.UserDto>
+@{
+    ViewData["Title"] = "Users";
+    var q = ViewData["Query"] as string;
+}
+<form method="get" class="row gy-2 gx-2 align-items-center mb-3">
+    <div class="col-auto">
+        <input name="q" class="form-control" value="@q" placeholder="Search by name or email" />
+    </div>
+    <div class="col-auto">
+        <button class="btn btn-outline-secondary" type="submit">Search</button>
+    </div>
+</form>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Full name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.FullName</td>
+                <td>@u.Email</td>
+                <td>@u.Phone</td>
+                <td>@u.Address</td>
+                <td class="text-end">
+                    <a class="btn btn-sm btn-info" href="/Users/Details/@u.Id">Details</a>
+                    <a class="btn btn-sm btn-warning" href="/Users/Edit/@u.Id">Edit</a>
+                    <a class="btn btn-sm btn-danger" href="/Users/Delete/@u.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

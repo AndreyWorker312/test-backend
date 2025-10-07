@@ -1,0 +1,7 @@
+﻿@model UsersApp.Application.Users.Dtos.UserDto
+<h4>Delete user</h4>
+<p>Are you sure to delete @Model.FullName?</p>
+<form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a class="btn btn-secondary" href="/Users">Cancel</a>
+</form>

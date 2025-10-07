@@ -1,0 +1,17 @@
+C:\Users\Андрей\Documents\resume\UsersApp.Infrastructure\bin\Debug\net9.0\UsersApp.Infrastructure.deps.json
+C:\Users\Андрей\Documents\resume\UsersApp.Infrastructure\bin\Debug\net9.0\UsersApp.Infrastructure.runtimeconfig.json
+C:\Users\Андрей\Documents\resume\UsersApp.Infrastructure\bin\Debug\net9.0\UsersApp.Infrastructure.dll
+C:\Users\Андрей\Documents\resume\UsersApp.Infrastructure\bin\Debug\net9.0\UsersApp.Infrastructure.pdb
+C:\Users\Андрей\Documents\resume\UsersApp.Infrastructure\bin\Debug\net9.0\UsersApp.Domain.dll
+C:\Users\Андрей\Documents\resume\UsersApp.Infrastructure\bin\Debug\net9.0\UsersApp.Domain.pdb
+C:\Users\Андрей\Documents\resume\UsersApp.Infrastructure\obj\Debug\net9.0\UsersApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Андрей\Documents\resume\UsersApp.Infrastructure\obj\Debug\net9.0\UsersApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Андрей\Documents\resume\UsersApp.Infrastructure\obj\Debug\net9.0\UsersApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Андрей\Documents\resume\UsersApp.Infrastructure\obj\Debug\net9.0\UsersApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Андрей\Documents\resume\UsersApp.Infrastructure\obj\Debug\net9.0\UsersApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Андрей\Documents\resume\UsersApp.Infrastructure\obj\Debug\net9.0\UsersApp.2DAEDC4F.Up2Date
+C:\Users\Андрей\Documents\resume\UsersApp.Infrastructure\obj\Debug\net9.0\UsersApp.Infrastructure.dll
+C:\Users\Андрей\Documents\resume\UsersApp.Infrastructure\obj\Debug\net9.0\refint\UsersApp.Infrastructure.dll
+C:\Users\Андрей\Documents\resume\UsersApp.Infrastructure\obj\Debug\net9.0\UsersApp.Infrastructure.pdb
+C:\Users\Андрей\Documents\resume\UsersApp.Infrastructure\obj\Debug\net9.0\UsersApp.Infrastructure.genruntimeconfig.cache
+C:\Users\Андрей\Documents\resume\UsersApp.Infrastructure\obj\Debug\net9.0\ref\UsersApp.Infrastructure.dll
