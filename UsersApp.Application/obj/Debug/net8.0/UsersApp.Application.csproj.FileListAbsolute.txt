@@ -1,0 +1,16 @@
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Application/bin/Debug/net8.0/UsersApp.Application.deps.json
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Application/bin/Debug/net8.0/UsersApp.Application.dll
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Application/bin/Debug/net8.0/UsersApp.Application.pdb
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Application/bin/Debug/net8.0/UsersApp.Domain.dll
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Application/bin/Debug/net8.0/UsersApp.Domain.pdb
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Application/obj/Debug/net8.0/UsersApp.Application.csproj.AssemblyReference.cache
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Application/obj/Debug/net8.0/UsersApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Application/obj/Debug/net8.0/UsersApp.Application.AssemblyInfoInputs.cache
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Application/obj/Debug/net8.0/UsersApp.Application.AssemblyInfo.cs
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Application/obj/Debug/net8.0/UsersApp.Application.csproj.CoreCompileInputs.cache
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Application/obj/Debug/net8.0/UsersApp.Application.sourcelink.json
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Application/obj/Debug/net8.0/UsersApp.Application.csproj.CopyComplete
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Application/obj/Debug/net8.0/UsersApp.Application.dll
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Application/obj/Debug/net8.0/refint/UsersApp.Application.dll
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Application/obj/Debug/net8.0/UsersApp.Application.pdb
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Application/obj/Debug/net8.0/ref/UsersApp.Application.dll

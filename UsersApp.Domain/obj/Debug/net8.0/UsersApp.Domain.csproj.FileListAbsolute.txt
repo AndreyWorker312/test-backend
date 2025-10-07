@@ -1,0 +1,12 @@
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Domain/bin/Debug/net8.0/UsersApp.Domain.deps.json
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Domain/bin/Debug/net8.0/UsersApp.Domain.dll
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Domain/bin/Debug/net8.0/UsersApp.Domain.pdb
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Domain/obj/Debug/net8.0/UsersApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Domain/obj/Debug/net8.0/UsersApp.Domain.AssemblyInfoInputs.cache
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Domain/obj/Debug/net8.0/UsersApp.Domain.AssemblyInfo.cs
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Domain/obj/Debug/net8.0/UsersApp.Domain.csproj.CoreCompileInputs.cache
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Domain/obj/Debug/net8.0/UsersApp.Domain.sourcelink.json
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Domain/obj/Debug/net8.0/UsersApp.Domain.dll
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Domain/obj/Debug/net8.0/refint/UsersApp.Domain.dll
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Domain/obj/Debug/net8.0/UsersApp.Domain.pdb
+/home/andrey/Documents/testWeb/test-backend/UsersApp.Domain/obj/Debug/net8.0/ref/UsersApp.Domain.dll

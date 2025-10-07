@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gC4RxVqIE3s=",
+  "dgSpecHash": "BQWTR57VpUSOLJI/LR8yB0WtvdV2mNHdMjsl/ZAqSUeH1Yu09R3CTdjigaYh+PLOG1vaqNXHu1pKoanMSq+tsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Андрей\\Documents\\resume\\UsersApp.Application\\UsersApp.Application.csproj",
+  "projectFilePath": "/home/andrey/Documents/testWeb/test-backend/UsersApp.Application/UsersApp.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

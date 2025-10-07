@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kmRDUobyxCF9LiiA++qR6zX2NGKU/Cql4kHosE6VFgA=",
+  "Source": "UsersApp.Web",
+  "BasePath": "_content/UsersApp.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
